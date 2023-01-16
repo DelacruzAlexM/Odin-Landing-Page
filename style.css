@@ -1,0 +1,53 @@
+body{
+    
+}
+.heading {
+    background-color: skyblue;
+   
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+.links{
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    
+}
+.left, .right {
+    
+}
+
+.boxp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.randoinfo {
+    text-align: center;
+}
+.pictext {
+    display: flex;
+    justify-content: center;
+}
+.quote {
+    display: flex;
+    background-color: darksalmon;
+    flex-direction: column;
+    align-items: center;
+}
+.ad {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a:link {
+    text-decoration: none;
+}
+p {
+    max-width: 300px
+}

@@ -33,6 +33,8 @@ body{
 .pictext {
     display: flex;
     justify-content: center;
+    text-align: center
+    margin:50px auto;
 }
 .quote {
     display: flex;
@@ -44,10 +46,20 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: yellow;
 }
 a:link {
     text-decoration: none;
 }
 p {
     max-width: 300px
+}
+.caption {
+    margin: 0px 20px;
+    display:inline-block
+}
+.copyright {
+    display: flex;
+    justify-content: center;
+    background-color: skyblue;
 }
